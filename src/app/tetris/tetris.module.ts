@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { SharedModule } from '../_shared/shared.module';
 
 import { TetrisGameComponent } from './tetris-game/tetris-game.component';
 
@@ -11,8 +10,6 @@ import { TetrisGameComponent } from './tetris-game/tetris-game.component';
   ],
   imports: [
     CommonModule,
-    SharedModule,
-    TetrisGameComponent,    
   ],
   exports: [
     TetrisGameComponent,

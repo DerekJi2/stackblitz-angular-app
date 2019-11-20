@@ -5,6 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './tetris-game.component.html',
   styleUrls: [ './tetris-game.component.scss' ]
 })
-export class AppComponent  {
+export class TetrisGameComponent  {
   name = 'Angular';
 }

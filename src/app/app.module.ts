@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { CoreModule } from './_core/core.module';
+import { TetrisModule } from './tetris/tetris.module';
 
 @NgModule({
   imports:      [
@@ -13,6 +14,7 @@ import { CoreModule } from './_core/core.module';
     FormsModule,
     CoreModule,
     AppRoutingModule,
+    TetrisModule,
   ],
   declarations: [ AppComponent, HelloComponent ],
   bootstrap:    [ AppComponent ]
