@@ -6,6 +6,8 @@ import { TetrisGameComponent } from './tetris-game/tetris-game.component';
 import { ControlPanelComponent } from './control-panel/control-panel.component';
 import { TetrisPlaygroundComponent } from './tetris-playground/tetris-playground.component';
 import { InfoPanelComponent } from './info-panel/info-panel.component';
+import { TetrisBoardComponent } from './tetris-board/tetris-board.component';
+import { TetrisSquareUnitComponent } from './tetris-square-unit/tetris-square-unit.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +15,8 @@ import { InfoPanelComponent } from './info-panel/info-panel.component';
     ControlPanelComponent,
     TetrisPlaygroundComponent,
     InfoPanelComponent,
+    TetrisBoardComponent,
+    TetrisSquareUnitComponent,
   ],
   imports: [
     CommonModule,

@@ -1,0 +1,13 @@
+@import '../_shared/scss/index.scss';
+
+
+.play-field {
+  height: 100%;
+  border: 2px solid #000;
+  padding: 3px 1px 1px 3px;
+  width: $square-width * 10 + 3 * 10 + 15;
+}
+
+.field-row {
+  width: $square-width * 10 + 3 * 10;
+}
