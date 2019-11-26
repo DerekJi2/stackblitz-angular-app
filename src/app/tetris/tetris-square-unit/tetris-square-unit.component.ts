@@ -3,7 +3,7 @@ import { Component, OnInit, Input, OnChanges, SimpleChanges } from '@angular/cor
 @Component({
   selector: 'app-tetris-square-unit',
   templateUrl: './tetris-square-unit.component.html',
-  styleUrls: ['./tetris-square-unit.component.css']
+  styleUrls: ['./tetris-square-unit.component.scss']
 })
 export class TetrisSquareUnitComponent implements OnInit, OnChanges {
 
